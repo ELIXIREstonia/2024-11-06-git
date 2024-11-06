@@ -5,7 +5,7 @@ nav:
       - "Introduction": chapters/01_introduction.md
       - "Working with Git": chapters/02_working_with_git.md
       - "References": chapters/references.md
-    - "Follow up training": follow_up_training.md
+    # - "Follow up training": follow_up_training.md
 
 theme:
   name: material
