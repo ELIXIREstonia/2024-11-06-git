@@ -180,6 +180,25 @@ By following these practices, you can effectively manage branches and merges in 
         git merge feature-branch
         ```
 
+!!! example "Resolving Merge Conflicts"
+
+    Using VS Code, clone the [playgound](https://github.com/ELIXIREstonia/2024-11-06-git-playground) repository and follow instructions to create a merge conflict and resolve it.
+
+    ??? success "Solution"
+
+        ```bash
+        git clone git@github.com:ELIXIREstonia/2024-11-06-git-playground.git
+        git checkout ugly-conflict # this is needed to fetch the branch from origin
+        # make changes to the README.md file if you feel like it
+        git add README.md
+        git commit -m "Change README.md"
+        git checkout main
+        git merge ugly-conflict
+        # resolve the conflict in the README.md file (VS Code will help you)
+        git add <resolved-file>
+        git commit
+        ```
+
 ## Navigating Git History
 
 ### Exploring Git Logs and History
@@ -283,6 +302,12 @@ Team members can review the pull request, leave comments, and suggest changes. O
  * Frequent Commits: Commit changes frequently with **meaningful** commit messages.
  * Sync Regularly: Regularly pull changes from the remote repository to stay up-to-date with the latest codebase.
  * Resolve Conflicts Early: Address merge conflicts as soon as they arise to avoid larger issues later.
+
+
+!!! example "Creating a pull request"
+
+    Create a new branch, make changes, push the branch to the remote repository, and create a pull request.
+    You can use the [playground](https://github.com/ELIXIREstonia/2024-11-06-git-playground) repository to practice.
 
 ## Handling Common Issues
 

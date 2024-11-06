@@ -39,6 +39,9 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 
 #### Data setup
 <!-- TODO: add some test repo here -->
+[Playground repository](https://github.com/ELIXIREstonia/2024-11-06-git-playground)  
+&emsp;- Make a fork of this repository to your own GitHub account. (make sure to uncheck the "main branch only" option)  
+&emsp;- Clone the repository to your local machine.
 
 #### Software used in this lesson:  
 &emsp;1. [Git](https://git-scm.com/downloads)  
