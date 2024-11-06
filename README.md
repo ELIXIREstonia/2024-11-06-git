@@ -1,15 +1,4 @@
-# Elixir Training Lesson template
-
-[![DOI](https://zenodo.org/badge/564252010.svg)](https://zenodo.org/badge/latestdoi/564252010)
-
-
-For instruction on how to use the template, please follow this documentation: 
-https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/
-
-
-**Any issues?** Contact Geert van Geest (@GeertvanGeest) 
-
-
+# ELIXIR EE git training
 
 ## If working locally
 
@@ -28,6 +17,11 @@ pip install mkdocs-bibtex
 pip install neoteroi-mkdocs
 ```
 
+Or better check `requiremetns.txt` and install all the dependencies with:
+```bash
+pip install -r requirements.txt
+```
+
 Clone this repository to your local computer. Then, make the repository your current directory and type:
 
 ```bash
@@ -38,8 +32,12 @@ To host it locally.
 
 Check it out with your browser at [http://localhost:8000/](http://localhost:8000/).
 
+## References & Citation
 
-## Citation
+For instruction on how to use the template, please follow this documentation: 
+https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/
+
+**Any issues?** Contact Geert van Geest (@GeertvanGeest) 
 
 Please cite as
 

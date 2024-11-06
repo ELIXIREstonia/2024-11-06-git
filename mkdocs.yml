@@ -1,9 +1,9 @@
-site_name: ELIXIR Training Lesson
+site_name: ELIXIR Training Lesson on Git
 nav:
     - About: index.md
     - Course Content:
-      - "1. title of first chapter": chapters/chapter_01.md
-      - "2. title of second chapter": chapters/chapter_02.md
+      - "Introduction": chapters/01_introduction.md
+      - "Working with Git": chapters/02_working_with_git.md
       - "References": chapters/references.md
     - "Follow up training": follow_up_training.md
 
@@ -20,8 +20,8 @@ theme:
     text: Lato
 
 # Repository
-repo_name: elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
-repo_url: https://github.com/elixir-europe-training/ELIXIR-TrP-LessonTemplate-MkDocs
+repo_name: ELIXIREstonia/2024-11-06-git
+repo_url: https://github.com/ELIXIREstonia/2024-11-06-git
 edit_uri: edit/main/docs/
 
 plugins:
@@ -59,7 +59,6 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
   - neoteroi.cards
-  - addbioschemas
 
 extra_css:
   - stylesheets/extra.css

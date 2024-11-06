@@ -1,51 +1,33 @@
-# ELIXIR Lesson Title 
-
-[add-bioschemas file='_data/metadata.yaml']
-
-## Authors
-
-[cards class_name="authors" cols="3"(./docs/assets/cards/author_cards.yaml)]
-
-Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](https://www.flaticon.com)
+# ELIXIR EE git training
 
 ## Lesson overview
 
 !!! overview ""
     :fontawesome-regular-bookmark: **Description**  
-    Add a short description of the training materail should be inserted here. 
+    Git is used across the world to help developers keep track of changes while working on different parts of the same project. Teams are not the only ones to benefit from version control: lone researchers can benefit immensely. Keeping a record of what was changed, when, and why is extremely useful for all researchers if they ever need to come back to the project later on (e.g., a year later, when memory has faded).
+
+    Version control is the lab notebook of the digital world: it’s what professionals use to keep track of what they’ve done and to collaborate with other people. Every large software development project relies on it, and most programmers use it for their small jobs as well. And it isn’t just for software: books, papers, small data sets, and anything that changes over time or needs to be shared can and should be stored in a version control system.
     
     </br>
     
     :fontawesome-solid-arrow-left: **Prerequisites**  
-    To be able to follow this course, learners should have knowledge in:  
-    &emsp;1. First requirement  
-    &emsp;2. Second requirement  
+    To be able to follow this course, learners should:  
+    &emsp;1. Bring your own laptop and install git: <https://git-scm.com/downloads>  
+    &emsp;2. install Visual Studio Code: <https://code.visualstudio.com/Download>
     
     </br>
     
     :fontawesome-solid-arrow-right: **Learning Outcomes:**  
     By the end of the course, learners will be able to:  
-    &emsp;1. First item  
-    &emsp;2. Second item  
+    &emsp;- Recognize version control importance  
+    &emsp;- Able to create a repository in Git  
+    &emsp;- Track changes and collaborate in Git 
     
     </br>
     
-    :fontawesome-solid-users: **Target Audience:** Researchers, undergraduate students, postgraduate students, etc...  
-    </br>
+    :fontawesome-solid-stairs: **Level:** Beginner
     
-    :fontawesome-solid-stairs: **Level:** Beginner/Intermediate/Advanced  
-    
-    :fontawesome-solid-lock: **License:** [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
-    
-    :fontawesome-solid-money-bill-1: **Funding:** This project has received funding from [name of funders].  
-
-    [comment]: # (Property in Bioschema: description)
-    [comment]: # (Property in Bioschema: coursePrequsites)
-    [comment]: # (Property in Bioschema: teaches)
-    [comment]: # (Property in Bioschema: audience)
-    [comment]: # (Property in Bioschema: educationalLevel)
-    [comment]: # (Property in Biochema: licence)
-    [comment]: # (This is an example for CONVERGE)
+    :fontawesome-solid-lock: **License:** [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
 #### Contributors
 
@@ -53,20 +35,13 @@ Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxic
 Greek Mythology icons made by [max.icons](https://www.flaticon.com/authors/maxicons) from [www.flaticon.com](www.flaticon.com)
 
 ---
-## Citing this lesson
+### Setup
 
-Please cite as:
+#### Data setup
+<!-- TODO: add some test repo here -->
 
-  1. Enter your citation here.
-  2. Geert van Geest, Elin Kronander, Jose Alejandro Romero Herrera, Nadja Žlender, & Alexia Cardona. (2023). The ELIXIR Training Lesson Template - Developing Training Together (v1.0.0-alpha). Zenodo. https://doi.org/10.5281/zenodo.7913092. 
-
----
-## Setup
-
-### Data setup
-To run this lesson you need to install data from …
-
-### Software setup
-To run this course you need to install… continue with software installation instructions
+#### Software used in this lesson:  
+&emsp;1. [Git](https://git-scm.com/downloads)  
+&emsp;2. [Visual Studio Code](https://code.visualstudio.com/Download)
 
 

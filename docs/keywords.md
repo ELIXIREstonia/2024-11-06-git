@@ -1,5 +1,5 @@
 
-Here's a lit of used keywords:
+Here's a list of used keywords:
 
 [TAGS]
 
